@@ -18,7 +18,7 @@ $(document).ready(function() {
     });
     $('header .textos').animate({
       opacity: 1,
-      marginTop: '-52px'
+      marginTop: '-100px'
     }, 2000)
   }
 
@@ -31,7 +31,7 @@ $(document).ready(function() {
   $('#btn-acerca-de').on('click', function(e){
     e.preventDefault();
     $('html, body').animate({
-      scrollTop: acercaDe -170
+      scrollTop: acercaDe -40
     }, 500);
   });
 
